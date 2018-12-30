@@ -3,6 +3,7 @@ Signin 区块链网课互动系统
 auther: Seya<br/>
 create at 2018/12/30<br/>
 使用语言: solidity, html, css, js
+主程序：/Signin/Signin.html
 
 <h3>使用环境：</h3>兼容Window10 / Ubuntu17.03
 <h3>网页浏览器适配：</h3>GoogleChrome浏览器、Edge浏览器
