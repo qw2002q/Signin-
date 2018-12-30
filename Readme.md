@@ -27,7 +27,7 @@ create at 2018/12/30<br/>
 	注:为了方便登录，在主网页登录不再需要输入账户地址，而只需输入相应的account0、account1...即可。（目前仅支持三个账户，如有需要，可自行修改"Contractdata.js"中的代码进行扩展）
 
 
-	5.在节点启动，并进行挖矿的情况下，运行"Signin.html"，便可进行使用。<br/>
+	5.在节点启动，并进行挖矿的情况下，运行"./Webcode/Signin.html"，便可进行使用。<br/>
 
 ![contractdata](./文档/img/contractdata.PNG)
 功能介绍：<br/>
