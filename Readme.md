@@ -19,15 +19,15 @@ create at 2018/12/30<br/>
 	注: 默认端口：8545 <br/>
 			--rpcapi "personal" 保证personal命令的使用被允许<br/>
 			--rpccorsdomain "*" 保证本地文件可被引用<br/>
-	2.将"./SmartContract/WebDepoly.log" 文件复制粘贴到geth中，完成合约部署。启动挖空，得到合约地址<br/>
+	2.将"/SmartContract/WebDepoly.log" 文件复制粘贴到geth中，完成合约部署。启动挖空，得到合约地址<br/>
 
 	3.将得到的合约地址，复制，并赋值给"Contractdata.js"第2行的contractAddress<br/>
 
-	4.由于本程序未采用数据库，因此区块链账户地址和密码需要存储到"./Webcode/js/Contractdata.js"中。同时为保障安全，密码需经过PasswordHash函数(可以使用文档提供的"PasswordHash.html"进行计算的出)，得到hash值，再将hash值赋值。如下图所示<br/>
+	4.由于本程序未采用数据库，因此区块链账户地址和密码需要存储到"/Webcode/js/Contractdata.js"中。同时为保障安全，密码需经过PasswordHash函数(可以使用文档提供的"/PasswordHash/PasswordHash.html"进行计算的出)，得到hash值，再将hash值赋值。如下图所示<br/>
 	注:为了方便登录，在主网页登录不再需要输入账户地址，而只需输入相应的account0、account1...即可。（目前仅支持三个账户，如有需要，可自行修改"Contractdata.js"中的代码进行扩展）
 
 
-	5.在节点启动，并进行挖矿的情况下，运行"./Webcode/Signin.html"，便可进行使用。<br/>
+	5.在节点启动，并进行挖矿的情况下，运行"/Webcode/Signin.html"，便可进行使用。<br/>
 
 ![contractdata](./文档/img/contractdata.PNG)
 功能介绍：<br/>
