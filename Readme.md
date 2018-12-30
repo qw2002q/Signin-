@@ -2,7 +2,7 @@ Signin 区块链网课互动系统
 ----------------
 auther: Seya<br/>
 create at 2018/12/30<br/>
-使用语言: solidty, html, css, js
+使用语言: solidity, html, css, js
 
 <h3>使用环境：</h3>兼容Window10 / Ubuntu17.03
 <h3>网页浏览器适配：</h3>GoogleChrome浏览器、Edge浏览器
@@ -29,7 +29,7 @@ create at 2018/12/30<br/>
 
 	5.在节点启动，并进行挖矿的情况下，运行"Signin.html"，便可进行使用。<br/>
 
-![contractdata](./img/contractdata.PNG)
+![contractdata](./文档/img/contractdata.PNG)
 功能介绍：<br/>
 -------------
 	1.左侧聊天框可显示系统通知，也可以进行聊天。还有两个特殊命令：输入"#clr"或者"#clear"可以清空聊天框；"#rec"或者"#reconnect"可以在与区块链断连时，重新尝试连接<br/>
@@ -63,4 +63,4 @@ create at 2018/12/30<br/>
 
 	15.Teacher'sQuestion: 查看老师提出的问题。
 
-![menu](./img/menu.png)
+![menu](./文档/img/menu.png)
